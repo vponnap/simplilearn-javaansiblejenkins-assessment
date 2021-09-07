@@ -20,7 +20,7 @@ public class DemoController {
 
     @GetMapping({"/hellopgdevopsfolks"})
     public String getKanha() {
-        return "Welcome to pg devops folks and team";
+        return "Welcome to pg devops folks and team and groups";
     }
 
     @GetMapping({"/helloteam"})
