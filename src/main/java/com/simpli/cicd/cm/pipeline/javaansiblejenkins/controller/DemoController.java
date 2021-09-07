@@ -25,7 +25,7 @@ public class DemoController {
 
     @GetMapping({"/helloteam"})
     public String getTeam() {
-        return "Welcome to my team";
+        return "Welcome to my team and groups";
     }
 }
 
