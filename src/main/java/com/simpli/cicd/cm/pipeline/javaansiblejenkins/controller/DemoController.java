@@ -15,7 +15,7 @@ public class DemoController {
 
     @GetMapping({"/hellodevops"})
     public String getNames() {
-        return "Welcome to Dockers and K8S, Jenkins ";
+        return "Welcome to Dockers and K8S, Jenkins,puppet team ";
     }
 
     @GetMapping({"/hellopgdevopsfolks"})
