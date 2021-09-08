@@ -25,7 +25,7 @@ public class DemoController {
 
     @GetMapping({"/helloteam"})
     public String getTeam() {
-        return "Welcome to my simpli learn team and groups";
+        return "Welcome to my simpli learn dev ops team and groups";
     }
 }
 
