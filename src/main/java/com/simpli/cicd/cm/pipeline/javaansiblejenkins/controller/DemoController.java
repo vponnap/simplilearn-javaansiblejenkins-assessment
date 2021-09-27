@@ -30,7 +30,7 @@ public class DemoController {
 
     @GetMapping({"/helloansibleteam"})
     public String getAnsible() {
-        return "Welcome to my ansible team and groups : shekar";
+        return "Welcome to my ansible team and groups : shekar and Shanmukha";
     }
 }
 
