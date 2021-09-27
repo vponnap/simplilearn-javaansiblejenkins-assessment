@@ -27,6 +27,11 @@ public class DemoController {
     public String getTeam() {
         return "Welcome to my simpli learn dev ops team and groups";
     }
+
+    @GetMapping({"/helloansibleteam"})
+    public String getAnsible() {
+        return "Welcome to my ansible team and groups : shekar";
+    }
 }
 
 
